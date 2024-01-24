@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Christopher</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+ 
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+          
+            <h1>Christopher Ávila Castillo</h1>
+            <h2>Ingeniero de Software - Desarrollador Junior</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/christopher-avila-3b347b267/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Christopher.</span> Un ingeniero en informática con una base sólida en lenguajes de programación como JAVA, Python, C++,C y angular, y me apasiona crear soluciones innovadoras que resuelvan problemas. Durante mis estudios universitarios, realicé varios proyectos de desarrollo de aplicaciones web, aplicaciones de escritorio y aplicaciones móviles. Busco constantemente nuevos retos y oportunidades para aprender y crecer en el campo del desarrollo de software.</p>
+
+            <div class="fila">
+             
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            06/09/2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            6202-5124
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            christopheravila49@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                           50 metros noroeste de la iglesia católica de Santa Margarita  
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pencil"></i>
+                            <span>DIBUJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa fa-cogs"></i>
+                            <span>TECNOLOGÍA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>EJERCICIO</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachillerato en Ingeniería Informática</h4>
+                        <span class="casa">Universidad Politécnica Internacional</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item izq">
+                        <h4>Bachillerato y Técnico medio en Informática Empresarial </h4>
+                        <span class="casa">Colegio Técnico Profesional Rosario de Naranjo</span>
+                        <span class="fecha">2012 - 2018</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Get connected</h4>
+                        <span class="casa">Cisco Network Academy</span>
+                        <span class="fecha">2014 - 2015</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Scrum Fundamentals Certified</h4>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso Básico Libre Office </h4>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Habilidades </h3>
+                    <div class="item der">
+                        <h4>JAVA</h4>
+                        <i class="fa-solid fa-coffee"></i>
+                        <div class="conectord">     
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Angular</h4>
+                        <i class="fa-solid fa-font"></i>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>C,C#,C++</h4>
+                        <i class="fa fa-chevron-left"></i>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>PYTHON</h4>
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>HTML,PHP y CSS</h4>
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Bases de datos (SQL)</h4>
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
