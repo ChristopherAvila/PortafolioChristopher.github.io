@@ -1,21 +1,18 @@
-let menuVisible = false;
-function mostrarOcultarMenu(){
+let visibleMenu = false;
+function showOcultMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
-        menuVisible = false;
+        visibleMenu = false;
     }else{
         document.getElementById("nav").classList ="responsive";
-        menuVisible = true;
+        visibleMenu = true;
     }
 }
 
-function seleccionar(){
+function select(){
     document.getElementById("nav").classList = "";
-    menuVisible = false;
+    visibleMenu = false;
 }
 
 
 
-window.onscroll = function(){
-    efectoHabilidades();
-} 
