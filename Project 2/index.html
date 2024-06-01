@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar-brand">Logo</div>
+            <button class="menu-toggle">&#9776;</button> 
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-item" data-lang-en="Home" data-lang-es="Inicio">Home</a></li>
+                <li><a href="Register/register.html" class="nav-item" data-lang-en="Log in/Register" data-lang-es="Inicio de Sesión/Registrar">Log in/Register</a></li>
+                <li><a href="#" class="nav-item" data-lang-en="News" data-lang-es="Novedades">News</a></li>
+                <li><a href="#" class="nav-item" data-lang-en="Playlists" data-lang-es="Playlists">Playlists</a></li>
+                <li><a href="#" class="nav-item" data-lang-en="Recommendations" data-lang-es="Recomendaciones">Recommendations</a></li>
+                <li><a href="#" class="nav-item" data-lang-en="Contact" data-lang-es="Contacto">Contact</a></li>
+                <a href="../index.html" class="nav-item" data-lang-en="Go Back" data-lang-es="Volver al Portafolio" class="navbar-top-links">Regresar al portfolio</a>
+                <li>
+                    <button id="language-toggle" class="language-button">Español</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <aside class="sidebar">
+        <h2 data-lang-en="Artists" data-lang-es="Artistas">Artistas</h2>
+        <form class="search-form">
+            <input type="text" placeholder="">
+            <button type="submit" data-lang-en="Search" data-lang-es="Buscar">Buscar</button>
+        </form>
+        <div class="separator"></div>
+        <div class="music-categories">
+            <h3 data-lang-en="Music Categories" data-lang-es="Categorías de Música" >Categorías de Música</h3>
+            <ul>
+                <li><button href="#">Pop</a></li>
+                <li><button href="#">Rock</a></li>
+                <li><button href="#">Barchata</a></li>
+            </ul>
+        </div>
+        <div class="separator"></div>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </aside>
+    <main>
+        <section class="albums">
+            <div class="album">
+                <img src="https://source.unsplash.com/random/1000x1000?music" alt="Album 1">
+                <h3 class="album-title" data-lang-en="Album 1" data-lang-es="Álbum 1">Album 1</h3>
+            </div>
+            <div class="album">
+                <img src="https://source.unsplash.com/random/1000x1000?music" alt="Album 2">
+                <h3 class="album-title" data-lang-en="Album 2" data-lang-es="Álbum 2">Album 2</h3>
+            </div>
+            <div class="album">
+                <img src="https://source.unsplash.com/random/900x900?music" alt="Album 3">
+                <h3 class="album-title" data-lang-en="Album 3" data-lang-es="Álbum 3">Album 3</h3>
+            </div>
+            <div class="album">
+                <img src="https://source.unsplash.com/random/1000x1000?music" alt="Album 1">
+                <h3 class="album-title" data-lang-en="Album 1" data-lang-es="Álbum 1">Album 4</h3>
+            </div>
+            <div class="album">
+                <img src="https://source.unsplash.com/random/1000x1000?music" alt="Album 1">
+                <h3 class="album-title" data-lang-en="Album 1" data-lang-es="Álbum 1">Album 5</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p  class="footer-text">&#169;  Compañia de Música- 
+            <span id="current-year"></span>, 
+            Compañía de Música. Todos los derechos reservados.</p>
+        <p class="footer-text" data-lang-en="Terms and Conditions | Privacy Policy | Legal warning" data-lang-es="Términos y Condiciones | Política de Privacidad | Aviso Legal">Términos y Condiciones | Política de Privacidad | Aviso Legal</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
